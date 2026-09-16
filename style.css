@@ -1,0 +1,25 @@
+body,html {
+  padding: 0%;
+  margin: 0;
+}
+
+/* Set carousel width to full and height to 50% of viewport */
+.carousel-half-height {
+    height: 60vh;
+    overflow: hidden;
+}
+
+.carousel-half-height .carousel-inner {
+    height: 100%;
+}
+
+.carousel-half-height .carousel-item {
+    height: 100%;
+}
+
+.carousel-half-height .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
